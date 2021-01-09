@@ -69,7 +69,11 @@ class Login extends BaseController
             }
         }
 
+<<<<<<< HEAD
         include_once '/home/pandaico/public_html/app/Libraries/vendor/autoload.php';
+=======
+        require_once 'app/Libraries/vendor/autoload.php';
+>>>>>>> 3777f417c87a85497bfb946d888fffc90489457c
         $google_client = new \Google_Client();
         $google_client->setClientId('496702007093-1hn24s0ddfljeo7m15qhua8nn8dv7fmt.apps.googleusercontent.com'); //Define your ClientID
         $google_client->setClientSecret('-bWofwg7SKSy71_7wiUD5gDg'); //Define your Client Secret Key
@@ -82,7 +86,11 @@ class Login extends BaseController
         // Google Login
 
         // Facebook Login
+<<<<<<< HEAD
         include_once '/home/pandaico/public_html/app/Libraries/vendor/autoload.php';
+=======
+        require_once 'app/Libraries/vendor/autoload.php';
+>>>>>>> 3777f417c87a85497bfb946d888fffc90489457c
         $facebook = new \Facebook\Facebook([
             'app_id'                  => '349298416280518',
             'app_secret'              => 'a67e75614657b5f90d4c6e7694059449',
@@ -100,7 +108,11 @@ class Login extends BaseController
 
     public function google_login()
     {
+<<<<<<< HEAD
         include_once "/home/pandaico/public_html/app/Libraries/vendor/autoload.php";
+=======
+       require_once '/app/Libraries/vendor/autoload.php';
+>>>>>>> 3777f417c87a85497bfb946d888fffc90489457c
         $google_client = new \Google_Client();
         $google_client->setClientId('496702007093-1hn24s0ddfljeo7m15qhua8nn8dv7fmt.apps.googleusercontent.com');
         $google_client->setClientSecret('-bWofwg7SKSy71_7wiUD5gDg');
@@ -151,7 +163,11 @@ class Login extends BaseController
 
     public function facebook_login()
     {
+<<<<<<< HEAD
         include_once "/home/pandaico/public_html/app/Libraries/vendor/autoload.php";
+=======
+       require_once '/app/Libraries/vendor/autoload.php';
+>>>>>>> 3777f417c87a85497bfb946d888fffc90489457c
         $facebook = new \Facebook\Facebook([
           'app_id'                  => '349298416280518',
           'app_secret'              => 'a67e75614657b5f90d4c6e7694059449',

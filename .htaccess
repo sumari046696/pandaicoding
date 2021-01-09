@@ -8,6 +8,7 @@ Options All -Indexes
 # Turning on the rewrite engine is necessary for the following rules and features.
 # FollowSymLinks must be enabled for this to work.
 <IfModule mod_rewrite.c>
+<<<<<<< HEAD
     Options +FollowSymlinks
     RewriteEngine On
 
@@ -15,17 +16,32 @@ Options All -Indexes
     # change the following line to match the subfolder you need.
     # http://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewritebase
     # RewriteBase /
+=======
+	Options +FollowSymlinks
+	RewriteEngine On
+
+	# If you installed CodeIgniter in a subfolder, you will need to
+	# change the following line to match the subfolder you need.
+	# http://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewritebase
+	# RewriteBase /
+>>>>>>> 3777f417c87a85497bfb946d888fffc90489457c
 
 	# Redirect Trailing Slashes...
 	RewriteCond %{REQUEST_FILENAME} !-d
 	RewriteRule ^(.*)/$ /$1 [L,R=301]
 
 	# Rewrite "www.example.com -> example.com"
+<<<<<<< HEAD
     RewriteCond %{HTTPS} off
     RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 	#RewriteCond %{HTTPS} !=on
 	#RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 	#RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+=======
+	RewriteCond %{HTTPS} !=on
+	RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+	RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+>>>>>>> 3777f417c87a85497bfb946d888fffc90489457c
 
 	# Checks to see if the user is attempting to access a valid file,
     # such as an image or css document, if this isn't true it sends the

@@ -21,7 +21,11 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
+<<<<<<< HEAD
 	public $baseURL = 'https://pandaicoding.com/';
+=======
+	public $baseURL = 'http://localhost/pandai/';
+>>>>>>> 3777f417c87a85497bfb946d888fffc90489457c
 
 	/*
 	|--------------------------------------------------------------------------
