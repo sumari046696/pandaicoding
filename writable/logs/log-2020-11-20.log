@@ -1,0 +1,88 @@
+CRITICAL - 2020-11-20 00:26:41 --> Invalid HTTP Protocol Version. Must be one of: 1.0, 1.1, 2
+#0 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/HTTP/Message.php(376): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidHTTPProtocol('1.0, 1.1, 2')
+#1 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(571): CodeIgniter\HTTP\Message->setProtocolVersion('0.9')
+#2 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(286): CodeIgniter\CodeIgniter->getRequestObject()
+#3 /home/admin/web/boscoding.com/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-20 02:25:12 --> Unable to connect to the database.
+#0 /home/pandaico/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/pandaico/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/pandaico/public_html/vendor/codeigniter4/framework/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/pandaico/public_html/app/Models/BarangModel.php(13): CodeIgniter\Model->findAll()
+#4 /home/pandaico/public_html/app/Controllers/Home.php(19): App\Models\BarangModel->getBarang()
+#5 /home/pandaico/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#6 /home/pandaico/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/pandaico/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/pandaico/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-20 02:27:00 --> Unable to connect to the database.
+#0 /home/pandaico/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/pandaico/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/pandaico/public_html/vendor/codeigniter4/framework/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/pandaico/public_html/app/Models/BarangModel.php(13): CodeIgniter\Model->findAll()
+#4 /home/pandaico/public_html/app/Controllers/Home.php(19): App\Models\BarangModel->getBarang()
+#5 /home/pandaico/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#6 /home/pandaico/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/pandaico/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/pandaico/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-20 02:27:00 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/pandaico/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/pandaico/...', 100, Array)
+#1 /home/pandaico/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home/pandaico/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/pandaico/...')
+#3 /home/pandaico/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-20 02:27:15 --> Unable to connect to the database.
+#0 /home/pandaico/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/pandaico/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/pandaico/public_html/vendor/codeigniter4/framework/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/pandaico/public_html/app/Models/BarangModel.php(13): CodeIgniter\Model->findAll()
+#4 /home/pandaico/public_html/app/Controllers/Home.php(19): App\Models\BarangModel->getBarang()
+#5 /home/pandaico/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#6 /home/pandaico/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/pandaico/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/pandaico/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-20 02:27:15 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/pandaico/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/pandaico/...', 100, Array)
+#1 /home/pandaico/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home/pandaico/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/pandaico/...')
+#3 /home/pandaico/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-20 02:28:56 --> Unable to connect to the database.
+#0 /home/pandaico/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/pandaico/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/pandaico/public_html/vendor/codeigniter4/framework/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/pandaico/public_html/app/Models/BarangModel.php(13): CodeIgniter\Model->findAll()
+#4 /home/pandaico/public_html/app/Controllers/Home.php(19): App\Models\BarangModel->getBarang()
+#5 /home/pandaico/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#6 /home/pandaico/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/pandaico/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/pandaico/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-20 02:29:42 --> include_once(/home/admin/web/boscoding.com/public_html/app/Libraries/vendor/autoload.php): failed to open stream: No such file or directory
+#0 /home/pandaico/public_html/app/Controllers/Login.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(/h...', '/home/pandaico/...', 72, Array)
+#1 /home/pandaico/public_html/app/Controllers/Login.php(72): include_once()
+#2 /home/pandaico/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Login->index()
+#3 /home/pandaico/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 /home/pandaico/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/pandaico/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-20 02:31:48 --> include_once(/home/pandaico/public_html/app/libraries/vendor/autoload.php): failed to open stream: No such file or directory
+#0 /home/pandaico/public_html/app/Controllers/Login.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(/h...', '/home/pandaico/...', 72, Array)
+#1 /home/pandaico/public_html/app/Controllers/Login.php(72): include_once()
+#2 /home/pandaico/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Login->index()
+#3 /home/pandaico/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 /home/pandaico/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/pandaico/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

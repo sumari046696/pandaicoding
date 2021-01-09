@@ -1,0 +1,33 @@
+CRITICAL - 2020-11-13 14:32:32 --> unlink(/home/admin/tmp/ci_sessionbeaeff59624e1c73085aa0c99852e1e6d3366ba5): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/ad...', '/home/admin/web...', 381, Array)
+#1 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Session/Handlers/FileHandler.php(381): unlink('/home/admin/tmp...')
+#2 [internal function]: CodeIgniter\Session\Handlers\FileHandler->gc(7200)
+#3 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Session/Session.php(1005): session_start()
+#4 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Session/Session.php(240): CodeIgniter\Session\Session->startSession()
+#5 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Config/Services.php(788): CodeIgniter\Session\Session->start()
+#6 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#7 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Config/Services.php(769): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#8 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Common.php(926): CodeIgniter\Config\Services::session()
+#9 /home/admin/web/boscoding.com/public_html/ci4cart/src/Cart.php(64): session()
+#10 /home/admin/web/boscoding.com/public_html/ci4cart/src/Config/Services.php(37): CodeIgniterCart\Cart->__construct()
+#11 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Config/BaseService.php(123): CodeIgniterCart\Config\Services::cart(false)
+#12 /home/admin/web/boscoding.com/public_html/ci4cart/src/Config/Services.php(35): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+#13 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Config/BaseService.php(294): CodeIgniterCart\Config\Services::cart()
+#14 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Config/BaseService.php(202): CodeIgniter\Config\BaseService::discoverServices('cart', Array)
+#15 /home/admin/web/boscoding.com/public_html/app/Controllers/Home.php(20): CodeIgniter\Config\BaseService::__callStatic('cart', Array)
+#16 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#17 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#18 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#19 /home/admin/web/boscoding.com/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#20 {main}
+CRITICAL - 2020-11-13 14:32:32 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Format/Exceptions/FormatException.php:9
+Stack trace:
+#0 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/API/ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Debug/Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

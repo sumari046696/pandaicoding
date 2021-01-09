@@ -1,0 +1,113 @@
+CRITICAL - 2020-10-24 00:00:14 --> Call to a member function showError() on null
+#0 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('register_view', Array, true)
+#2 /home/admin/web/boscoding.com/public_html/app/Controllers/Register.php(78): view('register_view', Array)
+#3 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->index()
+#4 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/admin/web/boscoding.com/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-24 00:03:36 --> Call to a member function showError() on null
+#0 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('register_view', Array, true)
+#2 /home/admin/web/boscoding.com/public_html/app/Controllers/Register.php(78): view('register_view', Array)
+#3 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->index()
+#4 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/admin/web/boscoding.com/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-24 00:05:18 --> Call to undefined function display_error()
+#0 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('register_view', Array, true)
+#2 /home/admin/web/boscoding.com/public_html/app/Controllers/Register.php(78): view('register_view', Array)
+#3 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->index()
+#4 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/admin/web/boscoding.com/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-24 00:15:10 --> Call to a member function with() on string
+#0 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->index()
+#1 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/admin/web/boscoding.com/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-24 00:17:31 --> Call to a member function withInput() on string
+#0 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->index()
+#1 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/admin/web/boscoding.com/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-24 00:20:21 --> Call to undefined method App\Controllers\Register::withInput()
+#0 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->index()
+#1 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/admin/web/boscoding.com/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-24 00:21:04 --> Undefined property: App\Controllers\Register::$withInput
+#0 /home/admin/web/boscoding.com/public_html/app/Controllers/Register.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/admin/web...', 76, Array)
+#1 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->index()
+#2 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/admin/web/boscoding.com/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-24 00:21:43 --> Call to undefined method CodeIgniter\Validation\Validation::withInput()
+#0 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->index()
+#1 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/admin/web/boscoding.com/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-24 00:22:28 --> Call to a member function showError() on null
+#0 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('register_view', Array, true)
+#2 /home/admin/web/boscoding.com/public_html/app/Controllers/Register.php(79): view('register_view', Array)
+#3 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->index()
+#4 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/admin/web/boscoding.com/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-24 00:24:00 --> Undefined property: App\Controllers\Register::$withInput
+#0 /home/admin/web/boscoding.com/public_html/app/Controllers/Register.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/admin/web...', 77, Array)
+#1 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->index()
+#2 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/admin/web/boscoding.com/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-24 12:33:02 --> Invalid HTTP Protocol Version. Must be one of: 1.0, 1.1, 2
+#0 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/HTTP/Message.php(376): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidHTTPProtocol('1.0, 1.1, 2')
+#1 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(571): CodeIgniter\HTTP\Message->setProtocolVersion('0.9')
+#2 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(286): CodeIgniter\CodeIgniter->getRequestObject()
+#3 /home/admin/web/boscoding.com/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-24 18:23:10 --> unlink(/home/admin/web/boscoding.com/public_html/writable/debugbar/debugbar_1603581670.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/ad...', '/home/admin/web...', 106, Array)
+#1 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/History.php(106): unlink('/home/admin/web...')
+#2 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1603581729, 20)
+#3 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Debug/Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/admin/web/boscoding.com/public_html/app/Config/Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Events/Events.php(188): call_user_func(Object(Closure))
+#7 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#8 /home/admin/web/boscoding.com/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-24 18:23:24 --> unlink(/home/admin/web/boscoding.com/public_html/writable/debugbar/debugbar_1603581679.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/ad...', '/home/admin/web...', 106, Array)
+#1 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/History.php(106): unlink('/home/admin/web...')
+#2 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1603581749, 20)
+#3 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Debug/Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/admin/web/boscoding.com/public_html/app/Config/Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Events/Events.php(188): call_user_func(Object(Closure))
+#7 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#8 /home/admin/web/boscoding.com/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-24 18:23:30 --> unlink(/home/admin/web/boscoding.com/public_html/writable/debugbar/debugbar_1603581704.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/ad...', '/home/admin/web...', 106, Array)
+#1 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/History.php(106): unlink('/home/admin/web...')
+#2 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1603581763, 20)
+#3 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Debug/Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/admin/web/boscoding.com/public_html/app/Config/Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/Events/Events.php(188): call_user_func(Object(Closure))
+#7 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#8 /home/admin/web/boscoding.com/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,12 @@
+CRITICAL - 2020-10-26 03:32:19 --> Invalid HTTP Protocol Version. Must be one of: 1.0, 1.1, 2
+#0 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/HTTP/Message.php(376): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidHTTPProtocol('1.0, 1.1, 2')
+#1 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(571): CodeIgniter\HTTP\Message->setProtocolVersion('0.9')
+#2 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(286): CodeIgniter\CodeIgniter->getRequestObject()
+#3 /home/admin/web/boscoding.com/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-26 23:49:05 --> Invalid HTTP Protocol Version. Must be one of: 1.0, 1.1, 2
+#0 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/HTTP/Message.php(376): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidHTTPProtocol('1.0, 1.1, 2')
+#1 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(571): CodeIgniter\HTTP\Message->setProtocolVersion('0.9')
+#2 /home/admin/web/boscoding.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(286): CodeIgniter\CodeIgniter->getRequestObject()
+#3 /home/admin/web/boscoding.com/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
