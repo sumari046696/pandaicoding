@@ -1,0 +1,14 @@
+{
+    "name": "google/login",
+    "description": "boscoding login by google",
+    "authors": [
+        {
+            "name": "sumari",
+            "email": "sumari@boscoding.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.0",
+        "facebook/graph-sdk": "^5.7"
+    }
+}
